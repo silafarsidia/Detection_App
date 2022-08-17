@@ -22,7 +22,5 @@ class AboutScreen : AppCompatActivity() {
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
             window.statusBarColor = this.resources.getColor(R.color.black)
         }
-
-
     }
 }
