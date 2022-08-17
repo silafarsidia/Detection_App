@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+<!--    CUSTOM COLOR-->
+    <color name="broken_white_F1">#F1F1F1</color>
+    <color name="broken_white_E2">#E2DCC8</color>
+    <color name="teal_0F">#0F3D3E</color>
+    <color name="teal_30">#30857c</color>
+    <color name="black_10">#100F0F</color>
+
 </resources>
