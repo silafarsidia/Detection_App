@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Detection Appliation</string>
+
+<!--    MAIN ACTIVITY SCREEN-->
+    <string name="capture">capture</string>
+    <string name="about">about</string>
 </resources>
