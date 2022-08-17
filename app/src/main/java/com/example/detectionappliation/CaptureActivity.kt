@@ -4,11 +4,18 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.example.detectionappliation.databinding.ActivityCaptureBinding
+import com.example.detectionappliation.databinding.ActivityMainBinding
 
 class CaptureActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityCaptureBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_capture)
+        binding = ActivityCaptureBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
         if (Build.VERSION.SDK_INT >= 21) {
             val window = this.window
