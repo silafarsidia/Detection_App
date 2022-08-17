@@ -4,4 +4,13 @@
     <!--    MAIN ACTIVITY SCREEN-->
     <string name="capture">capture</string>
     <string name="about">about</string>
+
+    <!--    CAPTURE ACTIVITY SCREEN-->
+    <string name="detect">detect</string>
+    <string name="desease_name_title">Nama Penyakit :</string>
+    <string name="desease_name">Lorem</string>
+    <string name="accuration">Akurasi</string>
+    <string name="accuration_num">10</string>
+    <string name="percentage">%</string>
+
 </resources>
