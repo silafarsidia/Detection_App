@@ -1,5 +1,6 @@
 package com.example.detectionappliation
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -22,6 +23,18 @@ class MainActivity : AppCompatActivity() {
             window.navigationBarColor = resources.getColor(R.color.black)
             window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
             window.statusBarColor = this.resources.getColor(R.color.black)
+        }
+
+        itemOnClickListener()
+    }
+
+    private fun itemOnClickListener() {
+        binding.btnCapture.setOnClickListener {
+            startActivity(Intent(this, CaptureActivity::class.java))
+        }
+
+        binding.btnAbout.setOnClickListener {
+            startActivity(Intent(this, AboutScreen::class.java))
         }
     }
 }
